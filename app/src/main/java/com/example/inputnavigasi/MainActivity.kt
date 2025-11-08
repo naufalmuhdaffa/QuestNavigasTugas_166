@@ -12,7 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.inputnavigasi.ui.theme.InputNavigasiTheme
-import com.example.inputnavigasi.view.ListParticipantScreen
+import com.example.inputnavigasi.view.FormScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,7 +24,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    ListParticipantScreen()
+                    FormScreen()
                 }
             }
         }
